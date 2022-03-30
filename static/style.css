@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    margin-right: 149px;
+}
+
+#logo img{
+    height: 40px;
+    filter: invert(1);
+   
+}
+#navbar{
+    background-color: #d43b3b;
+    font-family: 'Yeon Sung' ;
+    padding: 7px, 5px;
+}
+#navbar ul{
+   
+    display: flex;
+    flex-direction: row;
+    
+}
+#navbar li{
+    list-style: none;
+    padding: 10px 5px;
+}
+#navbar li a{ 
+    text-decoration: none;
+    padding: 20px 5px;
+}
+#navbar li a:hover{
+    color: black;  
+}
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'ZCOOL QingKe HuangYou';
+    font-size: 22px;
+    align-items: center;
+    background: center/cover no-repeat url('https://source.unsplash.com/collection/190727/1600x900') ; 
+    height: 300px;
+    background-color: red;
+}
+#introSection div.small{
+   
+    font-size: 22px;
+    padding: 5px;
+}
+#sponsorsSection{
+    
+    color: black;
+    background-color: antiquewhite;
+    height:150px;
+    
+}
+#missionSection{
+    text-align: inherit;
+    text-align: center;
+    background-color: rgb(225, 233, 236);
+    color:black;
+    
+    height:400px;
+   
+}
+#footer{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 34px;
+} 
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin:16px 14px;
+    height: 209px;
+}
+.card h3{
+    text-align: center;
+    margin: 10px;
+}
+.card-img img{
+    height: inherit; 
+}
+.card-img{
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#sponsors{
+    height: 120px;
+    max-width: 100px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding-left: 250px;
+   
+}
+
+.spImage{
+    height: 80px;
+    margin: 20px;
+}
+#sponsorsSection h2{
+    padding-left: 414px;
+    font-family: sans-serif;
+    font-size: 1.9rem;
+}
